@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quintal Hospedagens | Relaxe, Pesque, Desfrute! — Arapongas-PR</title>
+<meta name="description" content="Quintal Hospedagens em Arapongas-PR: 8 casas e chalés à beira d'água, cachoeira exclusiva, piscina natural e pesca livre na represa. Reserve direto pelo WhatsApp.">
+<meta property="og:title" content="Quintal Hospedagens — Relaxe, Pesque, Desfrute!">
+<meta property="og:description" content="Casas e chalés à beira d'água com cachoeira exclusiva, piscina natural e pesca livre. Arapongas-PR.">
+<meta property="og:image" content="hero-poster.jpg">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pannellum.css">
+<style>
+:root{--green:#00B45B;--green-d:#03A555;--forest:#16281B;--amber:#F2B01E;--ink:#333;--muted:#5f5f5f;--line:#e8e8e3;--cream:#f7f6f1;--white:#fff;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Poppins,"Trebuchet MS",Helvetica,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1200px,92vw);margin:0 auto}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+h2.title{font-size:clamp(1.8rem,4vw,2.9rem);font-weight:800;text-transform:uppercase;line-height:1.1;color:var(--ink);margin:.35rem 0 .6rem}
+.wave{width:150px;height:14px;margin-bottom:1.4rem;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='14' viewBox='0 0 20 14'%3E%3Cpath d='M0 7 Q5 0 10 7 T20 7' fill='none' stroke='%2300B45B' stroke-width='2.4'/%3E%3C/svg%3E") repeat-x}
+.center{text-align:center}.center .wave{margin-inline:auto}
+.lead{color:var(--muted);font-size:1.05rem;max-width:720px}
+.center .lead{margin-inline:auto}
+section{padding:96px 0}
+.btn{display:inline-flex;align-items:center;gap:.6rem;border-radius:999px;padding:.95rem 1.7rem;font-weight:700;font-size:.92rem;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:2px solid transparent;transition:.25s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-green{background:var(--green);color:#fff;box-shadow:0 10px 30px -10px rgba(0,180,91,.7)}
+.btn-green:hover{background:var(--green-d);transform:translateY(-2px)}
+.btn-line{border-color:var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-light{border-color:#fff;color:#fff}
+.btn-light:hover{background:#fff;color:var(--forest)}
+
+/* header */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:.35s}
+header .bar{display:flex;align-items:center;justify-content:space-between;height:84px}
+header .logo img{height:58px;width:auto;filter:drop-shadow(0 2px 8px rgba(0,0,0,.35));transition:.35s}
+header nav{display:flex;gap:1.6rem;align-items:center}
+header nav a{color:#fff;font-weight:500;font-size:.88rem;text-transform:uppercase;letter-spacing:.06em;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+header nav a:hover{color:var(--amber)}
+header .soc{display:flex;gap:.6rem}
+header .soc a{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.18);backdrop-filter:blur(6px)}
+header .soc svg{width:17px;height:17px;fill:#fff}
+header.solid{background:rgba(255,255,255,.96);box-shadow:0 6px 30px -12px rgba(0,0,0,.25);backdrop-filter:blur(10px)}
+header.solid nav a{color:var(--ink);text-shadow:none}
+header.solid nav a:hover{color:var(--green)}
+header.solid .logo img{height:48px;filter:none}
+header.solid .soc a{background:var(--cream)}header.solid .soc svg{fill:var(--ink)}
+header .nav-cta{background:var(--green);color:#fff!important;padding:.6rem 1.1rem;border-radius:999px;text-shadow:none!important}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer}
+.burger span{display:block;height:2px;background:#fff;margin:7px 8px;border-radius:2px;transition:.3s}
+header.solid .burger span{background:var(--ink)}
+
+/* hero scroll */
+#hero{position:relative;height:420vh;padding:0;background:#0d1a10}
+#hero .stick{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+#hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,13,.55) 0%,rgba(10,22,13,.05) 35%,rgba(10,22,13,.15) 60%,rgba(10,22,13,.75) 100%)}
+#hero .copy{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#fff;padding:0 6vw}
+#hero .slide{position:absolute;max-width:900px;opacity:0;transform:translateY(30px);transition:opacity .6s,transform .6s}
+#hero .slide.on{opacity:1;transform:none}
+#hero h1{font-size:clamp(2.4rem,7.2vw,5.6rem);font-weight:800;line-height:1.02;text-transform:uppercase;text-shadow:0 6px 40px rgba(0,0,0,.45)}
+#hero h1 em{font-style:normal;color:var(--amber)}
+#hero .slide p{font-size:clamp(1rem,2vw,1.3rem);margin-top:1rem;text-shadow:0 2px 14px rgba(0,0,0,.6)}
+#hero .chips{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-top:1.4rem}
+#hero .chips span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(8px);padding:.5rem 1rem;border-radius:999px;font-size:.9rem;font-weight:500}
+#hero .ctas{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.8rem}
+#hero .hint{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);color:#fff;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:.85;transition:opacity .4s}
+#hero .hint i{width:26px;height:42px;border:2px solid #fff;border-radius:14px;position:relative}
+#hero .hint i:after{content:"";position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;background:#fff;border-radius:2px;animation:wheel 1.6s infinite}
+@keyframes wheel{0%{opacity:1;transform:none}100%{opacity:0;transform:translateY(14px)}}
+#hero canvas{position:absolute;inset:-40px;width:calc(100% + 80px);height:calc(100% + 80px);filter:blur(28px) saturate(1.15) brightness(.8);display:none}
+@media (min-aspect-ratio:1/1) and (min-width:861px){
+ #hero canvas{display:block}
+ #hero video{left:auto;right:7vw;top:50%;transform:translateY(-50%);height:min(84vh,820px);width:auto;aspect-ratio:9/16;border-radius:30px;box-shadow:0 40px 100px -30px rgba(0,0,0,.8);border:6px solid rgba(255,255,255,.18)}
+ #hero .shade{background:linear-gradient(90deg,rgba(10,22,13,.75) 0%,rgba(10,22,13,.35) 55%,rgba(10,22,13,.1) 100%)}
+ #hero .copy{right:auto;width:60%;place-items:center start;text-align:left;padding-left:7vw}
+ #hero .chips,#hero .ctas{justify-content:flex-start}
+ #hero .slide{left:7vw;max-width:48vw}
+}
+#hero .progress{position:absolute;left:0;bottom:0;height:4px;background:var(--amber);width:0}
+
+/* highlights */
+.highlights{background:var(--forest);color:#fff;padding:0;position:relative;z-index:2}
+.highlights .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.hl{padding:34px 22px;border-right:1px solid rgba(255,255,255,.1);display:flex;gap:14px;align-items:center}
+.hl:last-child{border:0}
+.hl b{display:block;font-size:1.6rem;color:var(--amber);line-height:1}
+.hl span{font-size:.88rem;opacity:.85}
+.hl svg{width:38px;height:38px;flex:none;stroke:var(--amber);fill:none;stroke-width:1.6}
+
+/* intro */
+.intro{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center}
+.intro .vid{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.45);aspect-ratio:16/9;background:#000}
+.intro video{width:100%;height:100%;object-fit:cover}
+.intro .badge{position:absolute;left:16px;top:16px;background:var(--amber);color:#1d1d1d;font-weight:700;font-size:.75rem;padding:.4rem .8rem;border-radius:999px;letter-spacing:.08em;text-transform:uppercase}
+.checks{list-style:none;display:grid;gap:.7rem;margin:1.4rem 0 2rem}
+.checks li{display:flex;gap:.7rem;align-items:flex-start}
+.checks li:before{content:"";flex:none;width:22px;height:22px;margin-top:2px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/14px no-repeat}
+
+/* photo tiles from atlases */
+.ph{background-repeat:no-repeat;background-color:#eee}
+.cover{position:relative;overflow:hidden;container-type:size}
+.cover>.ph{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+
+/* acomodações */
+#acomodacoes{background:var(--cream)}
+.grid-acc{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:2.6rem}
+.acc{background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:0 18px 40px -26px rgba(0,0,0,.35);display:flex;flex-direction:column;transition:.35s;cursor:pointer}
+.acc:hover{transform:translateY(-6px);box-shadow:0 30px 60px -28px rgba(0,0,0,.45)}
+.acc .cover{aspect-ratio:4/5}
+.acc .cover:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(10,22,13,.82))}
+.acc .tag{position:absolute;z-index:2;top:14px;left:14px;background:rgba(255,255,255,.9);color:var(--forest);font-size:.7rem;font-weight:700;letter-spacing:.1em;padding:.35rem .7rem;border-radius:999px;text-transform:uppercase}
+.acc .name{position:absolute;z-index:2;left:18px;right:18px;bottom:16px;color:#fff}
+.acc .name h3{font-size:1.25rem;font-weight:800;text-transform:uppercase;line-height:1.15}
+.acc .name p{font-size:.85rem;opacity:.9}
+.acc .actions{display:flex;gap:8px;padding:14px}
+.acc .actions button{flex:1;border:0;border-radius:12px;padding:.75rem .5rem;font:600 .78rem Poppins;text-transform:uppercase;letter-spacing:.05em;cursor:pointer}
+.acc .see{background:var(--cream);color:var(--ink)}
+.acc .see:hover{background:#ebe9df}
+.acc .book{background:var(--green);color:#fff}
+.acc .book:hover{background:var(--green-d)}
+
+/* tour 360 */
+#tour{background:var(--forest);color:#fff}
+#tour .title{color:#fff}#tour .eyebrow{color:var(--amber)}#tour .lead{color:rgba(255,255,255,.78)}
+.tour-box{position:relative;margin-top:2.4rem;border-radius:22px;overflow:hidden;height:min(68vh,620px);box-shadow:0 40px 90px -40px rgba(0,0,0,.8);border:1px solid rgba(255,255,255,.12)}
+#pano{width:100%;height:100%}
+.tour-label{position:absolute;z-index:3;left:18px;top:18px;background:rgba(0,0,0,.55);backdrop-filter:blur(8px);padding:.5rem .9rem;border-radius:999px;font-size:.8rem;font-weight:600;display:flex;gap:.5rem;align-items:center}
+.tour-label i{width:8px;height:8px;border-radius:50%;background:var(--amber);box-shadow:0 0 0 4px rgba(242,176,30,.25)}
+.tour-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;justify-content:center}
+.tour-tabs button{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3);padding:.6rem 1.1rem;border-radius:999px;font:500 .85rem Poppins;cursor:pointer}
+.tour-tabs button.on{background:var(--amber);color:#1d1d1d;border-color:var(--amber);font-weight:700}
+.tour-tabs button.soon{opacity:.55;cursor:default}
+.tour-note{margin-top:18px;font-size:.85rem;color:rgba(255,255,255,.6);text-align:center}
+
+/* atrativos */
+.attr{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:2.6rem}
+.attr .card{border-radius:var(--r);overflow:hidden;background:#fff;box-shadow:0 18px 40px -26px rgba(0,0,0,.35)}
+.attr .media{aspect-ratio:4/5;background:#000;position:relative}
+.attr video{width:100%;height:100%;object-fit:cover}
+.attr .card div.txt{padding:20px 22px}
+.attr h3{font-size:1.15rem;font-weight:700;text-transform:uppercase;margin-bottom:.3rem}
+.attr p{color:var(--muted);font-size:.93rem}
+.strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:24px}
+.strip .cover{aspect-ratio:1;border-radius:14px;cursor:zoom-in}
+.strip .cover:hover .ph{transform:translate(-50%,-50%) scale(1.06)}
+.strip .ph{transition:transform .5s}
+
+/* galeria */
+#galeria{background:var(--cream)}
+.masonry{columns:4 260px;column-gap:14px;margin-top:2.4rem}
+.masonry .ph{width:100%;border-radius:14px;margin-bottom:14px;cursor:zoom-in;break-inside:avoid;transition:.3s}
+.masonry .ph:hover{filter:brightness(1.07);transform:scale(.99)}
+
+/* depoimentos */
+#depoimentos{position:relative;overflow:hidden}
+.dep-head{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap}
+.score{display:flex;align-items:center;gap:1rem;background:var(--cream);border-radius:16px;padding:1rem 1.4rem}
+.score b{font-size:2.2rem;line-height:1}
+.stars{color:var(--amber);letter-spacing:2px}
+.dep-track{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2.4rem 4vw 1rem;margin:0 -4vw;scrollbar-width:none}
+.dep-track::-webkit-scrollbar{display:none}
+.dep{flex:0 0 min(380px,82vw);scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:1rem;box-shadow:0 18px 40px -30px rgba(0,0,0,.3)}
+.dep p{color:var(--muted);font-size:.95rem;flex:1}
+.dep .who{display:flex;align-items:center;gap:.8rem}
+.dep .av{width:52px;height:52px;border-radius:50%;background:url(depoimentos.jpg) no-repeat;background-size:1200% 100%;flex:none;border:3px solid var(--cream)}
+.dep .who b{text-transform:uppercase;font-size:.9rem;display:block}
+.dep .who small{color:var(--muted)}
+.dep p.long{display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+.dep button.more{background:none;border:0;color:var(--green);font:600 .85rem Poppins;cursor:pointer;text-align:left}
+.dep-nav{display:flex;gap:10px}
+.dep-nav button{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:1.2rem}
+.dep-nav button:hover{background:var(--green);color:#fff;border-color:var(--green)}
+
+/* reservas */
+#reservas{background:linear-gradient(135deg,var(--forest) 0%,#1f3a26 100%);color:#fff;position:relative;overflow:hidden}
+#reservas:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(242,176,30,.22),transparent 70%);right:-160px;top:-160px}
+.res{display:grid;grid-template-columns:1fr 1.15fr;gap:56px;align-items:center;position:relative}
+#reservas .title{color:#fff}#reservas .eyebrow{color:var(--amber)}#reservas .lead{color:rgba(255,255,255,.8)}
+.steps{list-style:none;margin-top:1.6rem;display:grid;gap:1rem;counter-reset:s}
+.steps li{display:flex;gap:1rem;align-items:center;counter-increment:s}
+.steps li:before{content:counter(s);width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);display:grid;place-items:center;font-weight:700;color:var(--amber);flex:none}
+form.card{background:#fff;color:var(--ink);border-radius:24px;padding:34px;box-shadow:0 40px 90px -40px rgba(0,0,0,.7)}
+form h3{font-size:1.3rem;font-weight:800;text-transform:uppercase;margin-bottom:.2rem}
+form .sub{color:var(--muted);font-size:.88rem;margin-bottom:1.4rem}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:.35rem;margin-bottom:14px}
+.f label{font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.f input,.f select,.f textarea{font:400 .95rem Poppins;border:1.5px solid var(--line);border-radius:12px;padding:.8rem .9rem;background:#fbfbf8;color:var(--ink);outline:none;transition:.2s;width:100%}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--green);background:#fff;box-shadow:0 0 0 4px rgba(0,180,91,.12)}
+.nights{font-size:.85rem;color:var(--green-d);font-weight:600;min-height:1.2em;margin:-4px 0 12px}
+form .btn{width:100%;justify-content:center}
+.alt{font-size:.82rem;color:var(--muted);text-align:center;margin-top:.9rem}
+.alt a{color:var(--green-d);font-weight:600}
+
+/* localização */
+.loc{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:center}
+.map{border-radius:var(--r);overflow:hidden;height:440px;box-shadow:0 30px 60px -30px rgba(0,0,0,.4)}
+.map iframe{width:100%;height:100%;border:0}
+.info{display:grid;gap:1rem;margin:1.4rem 0 2rem}
+.info div{display:flex;gap:.9rem;align-items:flex-start}
+.info svg{width:24px;height:24px;flex:none;stroke:var(--green);fill:none;stroke-width:1.8;margin-top:2px}
+.info b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+
+/* cta + footer */
+.final{position:relative;padding:120px 0;color:#fff;text-align:center;overflow:hidden}
+.final .bgv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.final:after{content:"";position:absolute;inset:0;background:rgba(10,22,13,.62)}
+.final .wrap{position:relative;z-index:2}
+.final h2{font-size:clamp(2rem,5vw,3.6rem);font-weight:800;text-transform:uppercase;line-height:1.08}
+.final p{margin:1rem auto 2rem;max-width:600px;opacity:.9}
+footer{background:#0f1c12;color:rgba(255,255,255,.75);padding:56px 0 30px;font-size:.9rem}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+footer img{height:70px;width:auto;margin-bottom:1rem}
+footer h4{color:#fff;text-transform:uppercase;font-size:.85rem;letter-spacing:.1em;margin-bottom:.9rem}
+footer a:hover{color:var(--amber)}
+footer ul{list-style:none;display:grid;gap:.4rem}
+footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-size:.8rem}
+footer .copy button{background:none;border:0;color:inherit;font:inherit;cursor:pointer;text-decoration:underline}
+
+/* floating */
+.fab{position:fixed;right:22px;bottom:22px;z-index:60;width:62px;height:62px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(37,211,102,.7);animation:pulse 2.4s infinite}
+.fab svg{width:32px;height:32px;fill:#fff}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.mbar{display:none}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(8,14,10,.82);backdrop-filter:blur(6px);display:none;overflow-y:auto;padding:4vh 0}
+.modal.open{display:block}
+.modal .box{width:min(1100px,94vw);margin:0 auto;background:#fff;border-radius:24px;overflow:hidden;position:relative}
+.modal .close{position:absolute;right:14px;top:14px;z-index:5;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:1.5rem;cursor:pointer}
+.modal .mhead{padding:30px 34px 10px;display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap}
+.modal .mhead h3{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:800;text-transform:uppercase;line-height:1.1}
+.modal .mhead p{color:var(--muted)}
+.modal .vids{display:grid;gap:14px;padding:16px 34px}
+.modal .vids video{width:100%;border-radius:16px;background:#000;max-height:70vh}
+.modal .masonry{padding:0 34px 34px;margin-top:10px;columns:3 220px}
+.lb{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center}
+.lb.open{display:flex}
+.lb .ph{border-radius:8px;background-color:transparent}
+.lb button{position:absolute;background:rgba(255,255,255,.12);border:0;color:#fff;width:52px;height:52px;border-radius:50%;font-size:1.6rem;cursor:pointer}
+.lb .x{top:18px;right:18px}.lb .pv{left:18px;top:50%;transform:translateY(-50%)}.lb .nx{right:18px;top:50%;transform:translateY(-50%)}
+.lb .cnt{position:absolute;bottom:20px;color:#fff;font-size:.85rem;opacity:.7}
+.pp{padding:40px;max-width:760px}
+.pp h3{font-weight:800;text-transform:uppercase;margin-bottom:1rem}.pp p{color:var(--muted);margin-bottom:.8rem;font-size:.95rem}
+
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .9s,transform .9s}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:1024px){
+ .grid-acc{grid-template-columns:repeat(2,1fr)}
+ .intro,.res,.loc{grid-template-columns:1fr;gap:40px}
+ .highlights .wrap{grid-template-columns:repeat(2,1fr)}
+ .hl:nth-child(2){border-right:0}.hl{border-bottom:1px solid rgba(255,255,255,.1)}
+ .attr{grid-template-columns:1fr 1fr}
+ .strip{grid-template-columns:repeat(3,1fr)}
+ footer .cols{grid-template-columns:1fr}
+}
+@media (max-width:860px){
+ header nav{position:fixed;inset:0;background:var(--forest);flex-direction:column;justify-content:center;gap:1.6rem;transform:translateX(100%);transition:.4s}
+ header nav.open{transform:none}
+ header nav a{color:#fff!important;font-size:1.1rem}
+ .burger{display:block;position:relative;z-index:3}
+ header .soc{display:none}
+ body.menu .burger span{background:#fff}
+ section{padding:72px 0}
+ .attr{grid-template-columns:1fr}
+ .attr .media{aspect-ratio:4/5}
+ .row{grid-template-columns:1fr}
+ form.card{padding:24px}
+ .fab{bottom:84px}
+ .mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:55;background:#fff;box-shadow:0 -8px 30px -10px rgba(0,0,0,.25);padding:10px 14px;gap:10px}
+ .mbar a{flex:1;text-align:center;padding:.85rem;border-radius:12px;font-weight:700;font-size:.85rem;text-transform:uppercase}
+ .mbar .a1{background:var(--cream)}.mbar .a2{background:var(--green);color:#fff}
+ footer{padding-bottom:100px}
+ .modal .vids,.modal .mhead{padding-left:18px;padding-right:18px}.modal .masonry{padding:0 18px 18px}
+ .map{height:340px}
+}
+@media (max-width:560px){.grid-acc{grid-template-columns:1fr}.acc .cover{aspect-ratio:4/3.6}.highlights .wrap{grid-template-columns:1fr 1fr}.hl{padding:22px 14px;flex-direction:column;align-items:flex-start;gap:8px}}
+</style>
+</head>
+<body>
+
+<header id="top">
+ <div class="wrap bar">
+  <a href="#hero" class="logo" aria-label="Quintal Hospedagens - início"><img src="logo.png" alt="Quintal Hospedagens"></a>
+  <nav id="nav">
+   <a href="#acomodacoes">Acomodações</a>
+   <a href="#tour">Tour 360°</a>
+   <a href="#atrativos">Atrativos</a>
+   <a href="#depoimentos">Depoimentos</a>
+   <a href="#localizacao">Como chegar</a>
+   <a href="#reservas" class="nav-cta">Reservar</a>
+  </nav>
+  <div class="soc">
+   <a href="https://www.instagram.com/quintalhospedagens?igsh=M2Y1NzJueXZyMnVi&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.2.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 4 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7C8.3 24 8.7 24 12 24s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-11.8a1.4 1.4 0 100 2.9 1.4 1.4 0 000-2.9z"/></svg></a>
+   <a href="https://www.facebook.com/share/14nB56PEsKq/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.6l.4-4h-4V6.3c0-1 .2-1.3 1.1-1.3H18V0h-3.8C10.6 0 9 1.6 9 4.6V8z"/></svg></a>
+  </div>
+  <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<!-- HERO com vídeo controlado pelo scroll -->
+<section id="hero">
+ <div class="stick">
+  <canvas id="heroBg" width="72" height="128"></canvas>
+  <video id="heroVideo" src="hero-scroll.mp4" poster="hero-poster.jpg" muted playsinline preload="auto"></video>
+  <div class="shade"></div>
+  <div class="copy">
+   <div class="slide on" data-from="0" data-to=".3">
+    <div class="eyebrow" style="color:#fff;opacity:.85">Quintal Hospedagens · Arapongas-PR</div>
+    <h1>Relaxe,<br><em>Pesque,</em><br>Desfrute!</h1>
+   </div>
+   <div class="slide" data-from=".3" data-to=".66">
+    <h1 style="font-size:clamp(2rem,5.4vw,4.2rem)">Seu refúgio à<br><em>beira d'água</em></h1>
+    <p>Desperte sua paixão pela pesca enquanto se aconchega em nosso refúgio.</p>
+    <div class="chips"><span>8 casas e chalés</span><span>Cachoeira exclusiva</span><span>Piscina natural</span><span>Pesca livre na represa</span></div>
+   </div>
+   <div class="slide" data-from=".66" data-to="1.01">
+    <h1 style="font-size:clamp(2rem,5.4vw,4.2rem)">Sua jornada de<br><em>tranquilidade</em><br>começa aqui</h1>
+    <div class="ctas">
+     <a href="#reservas" class="btn btn-green"><svg viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>Faça agora a sua reserva</a>
+     <a href="#acomodacoes" class="btn btn-light">Ver acomodações</a>
+    </div>
+   </div>
+  </div>
+  <div class="hint" id="hint"><i></i>Role para explorar</div>
+  <div class="progress" id="heroProg"></div>
+ </div>
+</section>
+
+<div class="highlights">
+ <div class="wrap">
+  <div class="hl"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg><div><b>8</b><span>casas e chalés exclusivos</span></div></div>
+  <div class="hl"><svg viewBox="0 0 24 24"><path d="M12 3v10M8 7c0 3 1 5 4 6M16 7c0 3-1 5-4 6M4 21c2-2 4-2 6 0s4 2 6 0 4-2 4-2"/></svg><div><b>Cachoeira</b><span>queda d'água exclusiva</span></div></div>
+  <div class="hl"><svg viewBox="0 0 24 24"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M7 13V5a2 2 0 014 0M13 13V5a2 2 0 014 0M7 8h10"/></svg><div><b>Piscina</b><span>natural com área de descanso</span></div></div>
+  <div class="hl"><svg viewBox="0 0 24 24"><path d="M2 12c3-4 7-5 11-5 4 0 7 2 9 5-2 3-5 5-9 5-4 0-8-1-11-5zM2 12l-1-3M2 12l-1 3M17 11h.01"/></svg><div><b>Pesca</b><span>livre na represa para hóspedes</span></div></div>
+ </div>
+</div>
+
+<!-- Intro -->
+<section id="sobre">
+ <div class="wrap intro">
+  <div class="vid reveal">
+   <span class="badge">Conheça o Quintal</span>
+   <video src="video-princ.mp4" controls playsinline preload="metadata" poster=""></video>
+  </div>
+  <div class="reveal">
+   <div class="eyebrow">Sua jornada de tranquilidade começa aqui</div>
+   <h2 class="title">Natureza, conforto e<br>muita paz</h2>
+   <div class="wave"></div>
+   <p class="lead">Descubra um oásis onde a conveniência e a natureza se encontram em perfeita sintonia. Nosso cenário encantador oferece não apenas a beleza natural que você anseia, mas também conforto e praticidade. Deixe para trás o tumulto da vida urbana e reconecte-se com os sons suaves da natureza.</p>
+   <ul class="checks">
+    <li>Casas e chalés completos, com TV em todos os ambientes</li>
+    <li>Queda d'água cristalina exclusiva para hóspedes</li>
+    <li>Piscina natural e represa com pesca livre</li>
+    <li>Pesqueiro ao lado e perto de restaurantes e mercados</li>
+    <li>Atendimento próximo e atencioso da anfitriã Gisele</li>
+   </ul>
+   <a href="#reservas" class="btn btn-green"><svg viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>Consultar datas</a>
+  </div>
+ </div>
+</section>
+
+<!-- Acomodações -->
+<section id="acomodacoes">
+ <div class="wrap">
+  <div class="center reveal">
+   <div class="eyebrow">Escolha o seu refúgio</div>
+   <h2 class="title">Nossas acomodações</h2>
+   <div class="wave"></div>
+   <p class="lead">Oito espaços únicos, cada um com sua personalidade. Toque em um card para ver vídeos e todas as fotos.</p>
+  </div>
+  <div class="grid-acc" id="accGrid"></div>
+ </div>
+</section>
+
+<!-- Tour 360 -->
+<section id="tour">
+ <div class="wrap">
+  <div class="center reveal">
+   <div class="eyebrow">Experiência imersiva</div>
+   <h2 class="title">Tour virtual 360°</h2>
+   <div class="wave"></div>
+   <p class="lead">Arraste para olhar em todas as direções e sinta-se dentro da Casa SPA antes mesmo de chegar.</p>
+  </div>
+  <div class="tour-box reveal">
+   <div class="tour-label"><i></i><span id="tourName">Casa SPA · Sala do SPA</span></div>
+   <div id="pano"></div>
+  </div>
+  <div class="tour-tabs" id="tourTabs"></div>
+  <p class="tour-note">Espaço reservado para os tours 360° completos de cada acomodação.</p>
+ </div>
+</section>
+
+<!-- Atrativos -->
+<section id="atrativos">
+ <div class="wrap">
+  <div class="center reveal">
+   <div class="eyebrow">Muito além da hospedagem</div>
+   <h2 class="title">+ Atrativos</h2>
+   <div class="wave"></div>
+  </div>
+  <div class="attr">
+   <div class="card reveal"><div class="media"><video src="video-Cachoeira.mp4" muted loop playsinline autoplay preload="metadata"></video></div><div class="txt"><h3>Cachoeira exclusiva</h3><p>Exclusiva queda d'água cristalina, um refúgio paradisíaco para hóspedes.</p></div></div>
+   <div class="card reveal"><div class="media"><video src="video-pisc-nat.mp4" muted loop playsinline autoplay preload="metadata"></video></div><div class="txt"><h3>Piscina natural</h3><p>Disponível para todos os hóspedes, com área de descanso integrada!</p></div></div>
+   <div class="card reveal"><div class="media cover" id="represaCover"></div><div class="txt"><h3>Represa & pesca</h3><p>Represa serena, pesca livre para hóspedes. E no pesqueiro ao lado: frescor culinário e sabor imbatível.</p></div></div>
+  </div>
+  <div class="strip" id="attrStrip"></div>
+ </div>
+</section>
+
+<!-- Galeria -->
+<section id="galeria">
+ <div class="wrap">
+  <div class="center reveal">
+   <div class="eyebrow">Momentos no Quintal</div>
+   <h2 class="title">Galeria</h2>
+   <div class="wave"></div>
+  </div>
+  <div class="masonry" id="mainGallery"></div>
+ </div>
+</section>
+
+<!-- Depoimentos -->
+<section id="depoimentos">
+ <div class="wrap">
+  <div class="dep-head reveal">
+   <div>
+    <div class="eyebrow">Quem se hospedou, recomenda</div>
+    <h2 class="title">Depoimentos</h2>
+    <div class="wave" style="margin-bottom:0"></div>
+   </div>
+   <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+    <div class="score"><b>5,0</b><div><div class="stars">★★★★★</div><small>Avaliações de hóspedes</small></div></div>
+    <div class="dep-nav"><button id="depPrev" aria-label="Anterior">←</button><button id="depNext" aria-label="Próximo">→</button></div>
+   </div>
+  </div>
+  <div class="dep-track" id="depTrack"></div>
+ </div>
+</section>
+
+<!-- Reservas -->
+<section id="reservas">
+ <div class="wrap res">
+  <div class="reveal">
+   <div class="eyebrow">Reserva rápida</div>
+   <h2 class="title">Faça a sua reserva</h2>
+   <div class="wave"></div>
+   <p class="lead">Preencha os dados ao lado e sua solicitação chega pronta no nosso WhatsApp. Respondemos rapidinho com disponibilidade e valores.</p>
+   <ol class="steps">
+    <li>Escolha a acomodação e as datas</li>
+    <li>Envie a mensagem pelo WhatsApp</li>
+    <li>Receba a confirmação e prepare as malas</li>
+   </ol>
+  </div>
+  <form class="card reveal" id="resForm" novalidate>
+   <h3>Solicitar reserva</h3>
+   <p class="sub">Sem compromisso · resposta pelo WhatsApp</p>
+   <div class="f"><label for="rNome">Seu nome</label><input id="rNome" required placeholder="Nome completo"></div>
+   <div class="row">
+    <div class="f"><label for="rFone">WhatsApp</label><input id="rFone" type="tel" placeholder="(43) 99999-9999"></div>
+    <div class="f"><label for="rAcc">Acomodação</label><select id="rAcc"></select></div>
+   </div>
+   <div class="row">
+    <div class="f"><label for="rIn">Check-in</label><input id="rIn" type="date" required></div>
+    <div class="f"><label for="rOut">Check-out</label><input id="rOut" type="date" required></div>
+   </div>
+   <div class="nights" id="nights"></div>
+   <div class="row">
+    <div class="f"><label for="rAd">Adultos</label><select id="rAd"></select></div>
+    <div class="f"><label for="rCr">Crianças</label><select id="rCr"></select></div>
+   </div>
+   <div class="f"><label for="rObs">Observações</label><textarea id="rObs" rows="2" placeholder="Ex.: comemoração, pet, horário de chegada..."></textarea></div>
+   <button class="btn btn-green" type="submit"><svg viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>Enviar pelo WhatsApp</button>
+   <p class="alt">Prefere falar direto? <a href="https://wa.me/5543996124004" target="_blank" rel="noopener">(43) 99612-4004</a> · <a href="https://wa.me/5543984835212" target="_blank" rel="noopener">(43) 98483-5212</a></p>
+  </form>
+ </div>
+</section>
+
+<!-- Localização -->
+<section id="localizacao">
+ <div class="wrap loc">
+  <div class="reveal">
+   <div class="eyebrow">Como chegar</div>
+   <h2 class="title">Encontre-nos sem complicações</h2>
+   <div class="wave"></div>
+   <p class="lead">Explore a tranquilidade e a facilidade de acesso que nosso local oferece. Aninhado em meio à natureza serena, nosso refúgio proporciona uma escapada sem complicações, em uma localização estratégica, onde a comodidade encontra a serenidade.</p>
+   <div class="info">
+    <div><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span><b>Endereço</b>Rua Quiri quiri, nº 261 - Jd. Coroados<br>Arapongas - PR</span></div>
+    <div><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg><span><b>WhatsApp</b><a href="https://wa.me/5543996124004" target="_blank" rel="noopener">(43) 99612-4004</a> · <a href="https://wa.me/5543984835212" target="_blank" rel="noopener">(43) 98483-5212</a></span></div>
+   </div>
+   <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Rua+Quiri+quiri,+261,+Jardim+Coroados,+Arapongas+-+PR" target="_blank" rel="noopener">Abrir rota no mapa</a>
+  </div>
+  <div class="map reveal"><iframe loading="lazy" title="Mapa Quintal Hospedagens" src="https://www.google.com/maps?q=Rua+Quiri+quiri,+261,+Jardim+Coroados,+Arapongas+-+PR&output=embed"></iframe></div>
+ </div>
+</section>
+
+<section class="final">
+ <video class="bgv" src="video-Cachoeira.mp4" muted loop playsinline autoplay preload="none"></video>
+ <div class="wrap">
+  <h2>Ainda tem dúvidas?</h2>
+  <p>Clique no botão abaixo e fale conosco agora mesmo. Vamos ajudar você a escolher o espaço ideal.</p>
+  <a class="btn btn-green" href="https://wa.me/5543996124004?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Quintal%20Hospedagens." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>Fale conosco, agora!</a>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="cols">
+   <div><img src="logo.png" alt="Quintal Hospedagens"><p>Relaxe, Pesque, Desfrute! Casas e chalés à beira d'água em meio à natureza.</p></div>
+   <div><h4>Acomodações</h4><ul id="footAcc"></ul></div>
+   <div><h4>Contato</h4><ul>
+    <li><a href="https://wa.me/5543996124004" target="_blank" rel="noopener">WhatsApp (43) 99612-4004</a></li>
+    <li><a href="https://wa.me/5543984835212" target="_blank" rel="noopener">WhatsApp (43) 98483-5212</a></li>
+    <li><a href="https://www.instagram.com/quintalhospedagens?igsh=M2Y1NzJueXZyMnVi&utm_source=qr" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/share/14nB56PEsKq/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a></li>
+    <li>Rua Quiri quiri, nº 261 - Jd. Coroados<br>Arapongas - PR</li>
+   </ul></div>
+  </div>
+  <div class="copy">
+   <span>Quintal hospedagens Ltda · CNPJ 617673900/0001-14</span>
+   <span><button id="ppBtn">Política de Privacidade, Termos e Condições</button></span>
+   <span>Copyright © <span id="yr"></span> - Quintal Hospedagens</span>
+  </div>
+ </div>
+</footer>
+
+<a class="fab" href="https://wa.me/5543996124004?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Quintal%20Hospedagens." target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><use href="#wa"/></svg></a>
+<div class="mbar"><a class="a1" href="#acomodacoes">Acomodações</a><a class="a2" href="#reservas">Reservar</a></div>
+
+<div class="modal" id="accModal"><div class="box"><button class="close" data-close>×</button><div id="accBody"></div></div></div>
+<div class="modal" id="ppModal"><div class="box pp"><button class="close" data-close style="background:var(--cream);color:var(--ink)">×</button>
+ <h3>Política de Privacidade, Termos e Condições</h3>
+ <p>Este site não coleta nem armazena dados pessoais em servidores. As informações preenchidas no formulário de reserva são usadas apenas para montar a mensagem enviada por você ao nosso WhatsApp.</p>
+ <p>Ao enviar a mensagem, a comunicação passa a seguir as políticas do WhatsApp. Os dados compartilhados são utilizados exclusivamente para atendimento, orçamento e confirmação da sua hospedagem.</p>
+ <p>A reserva só é considerada confirmada após retorno da Quintal Hospedagens com as condições, valores e formas de pagamento. Dúvidas: (43) 99612-4004.</p>
+</div></div>
+<div class="lb" id="lb"><button class="x" data-lbx>×</button><button class="pv" data-lbp>‹</button><div id="lbImg"></div><button class="nx" data-lbn>›</button><div class="cnt" id="lbCnt"></div></div>
+
+<svg width="0" height="0" style="position:absolute"><symbol id="wa" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 01-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1112 21.8zm8.4-18.2A11.8 11.8 0 001.7 17.8L0 24l6.3-1.7a11.8 11.8 0 005.7 1.4A11.9 11.9 0 0020.4 3.6z"/></symbol></svg>
+
+<script src="pannellum.js"></script>
+<script>
+const A={"inicio":[["g-inicio-1",0,0,1000,666,3000,3000],["g-inicio-1",1000,0,1000,666,3000,3000],["g-inicio-1",2000,0,1000,666,3000,3000],["g-inicio-1",0,1000,1000,666,3000,3000],["g-inicio-1",1000,1000,1000,666,3000,3000],["g-inicio-1",2000,1000,1000,666,3000,3000],["g-inicio-1",0,2000,1000,666,3000,3000],["g-inicio-1",1000,2000,1000,666,3000,3000],["g-inicio-1",2000,2000,1000,666,3000,3000],["g-inicio-2",0,0,1000,666,3000,1000],["g-inicio-2",1000,0,1000,666,3000,1000],["g-inicio-2",2000,0,1000,666,3000,1000]],"capas":[["g-capas-1",0,0,1000,562,3000,3000],["g-capas-1",1000,0,1000,666,3000,3000],["g-capas-1",2000,0,1000,666,3000,3000],["g-capas-1",0,1000,1000,562,3000,3000],["g-capas-1",1000,1000,900,730,3000,3000],["g-capas-1",2000,1000,1000,750,3000,3000],["g-capas-1",0,2000,1000,759,3000,3000],["g-capas-1",1000,2000,1000,759,3000,3000]],"atrativos":[["g-atrativos-1",0,0,418,754,3000,3000],["g-atrativos-1",1000,0,1000,666,3000,3000],["g-atrativos-1",2000,0,1000,666,3000,3000],["g-atrativos-1",0,1000,1000,666,3000,3000],["g-atrativos-1",1000,1000,1000,666,3000,3000],["g-atrativos-1",2000,1000,1000,666,3000,3000],["g-atrativos-1",0,2000,1000,666,3000,3000],["g-atrativos-1",1000,2000,342,239,3000,3000],["g-atrativos-1",2000,2000,342,239,3000,3000],["g-atrativos-2",0,0,1000,666,2000,1000],["g-atrativos-2",1000,0,566,1000,2000,1000]],"spa":[["g-spa-1",0,0,1000,557,3000,3000],["g-spa-1",1000,0,1000,750,3000,3000],["g-spa-1",2000,0,750,1000,3000,3000],["g-spa-1",0,1000,1000,750,3000,3000],["g-spa-1",1000,1000,1000,750,3000,3000],["g-spa-1",2000,1000,1000,750,3000,3000],["g-spa-1",0,2000,1000,750,3000,3000],["g-spa-1",1000,2000,1000,750,3000,3000],["g-spa-1",2000,2000,1000,750,3000,3000],["g-spa-2",0,0,1000,750,3000,3000],["g-spa-2",1000,0,1000,750,3000,3000],["g-spa-2",2000,0,419,754,3000,3000],["g-spa-2",0,1000,1000,562,3000,3000],["g-spa-2",1000,1000,1000,562,3000,3000],["g-spa-2",2000,1000,1000,562,3000,3000],["g-spa-2",0,2000,1000,562,3000,3000],["g-spa-2",1000,2000,1000,562,3000,3000],["g-spa-2",2000,2000,1000,562,3000,3000],["g-spa-3",0,0,1000,562,2000,1000],["g-spa-3",1000,0,1000,562,2000,1000]],"sitio":[["g-sitio-1",0,0,1000,560,3000,3000],["g-sitio-1",1000,0,1000,750,3000,3000],["g-sitio-1",2000,0,1000,750,3000,3000],["g-sitio-1",0,1000,1000,750,3000,3000],["g-sitio-1",1000,1000,1000,750,3000,3000],["g-sitio-1",2000,1000,1000,750,3000,3000],["g-sitio-1",0,2000,1000,750,3000,3000],["g-sitio-1",1000,2000,1000,750,3000,3000],["g-sitio-1",2000,2000,1000,750,3000,3000],["g-sitio-2",0,0,1000,750,3000,3000],["g-sitio-2",1000,0,1000,750,3000,3000],["g-sitio-2",2000,0,1000,750,3000,3000],["g-sitio-2",0,1000,1000,750,3000,3000],["g-sitio-2",1000,1000,1000,750,3000,3000],["g-sitio-2",2000,1000,1000,750,3000,3000],["g-sitio-2",0,2000,1000,750,3000,3000],["g-sitio-2",1000,2000,1000,750,3000,3000],["g-sitio-2",2000,2000,1000,750,3000,3000],["g-sitio-3",0,0,1000,750,3000,1000],["g-sitio-3",1000,0,1000,750,3000,1000],["g-sitio-3",2000,0,1000,750,3000,1000]],"acqua":[["g-acqua-1",0,0,1000,559,3000,3000],["g-acqua-1",1000,0,1000,750,3000,3000],["g-acqua-1",2000,0,1000,750,3000,3000],["g-acqua-1",0,1000,1000,750,3000,3000],["g-acqua-1",1000,1000,1000,750,3000,3000],["g-acqua-1",2000,1000,1000,750,3000,3000],["g-acqua-1",0,2000,1000,750,3000,3000],["g-acqua-1",1000,2000,1000,750,3000,3000],["g-acqua-1",2000,2000,1000,750,3000,3000],["g-acqua-2",0,0,1000,750,1000,1000]],"beijaflor":[["g-beijaflor-1",0,0,999,565,3000,3000],["g-beijaflor-1",1000,0,1000,562,3000,3000],["g-beijaflor-1",2000,0,1000,566,3000,3000],["g-beijaflor-1",0,1000,1000,557,3000,3000],["g-beijaflor-1",1000,1000,1000,559,3000,3000],["g-beijaflor-1",2000,1000,562,1000,3000,3000],["g-beijaflor-1",0,2000,562,1000,3000,3000],["g-beijaflor-1",1000,2000,562,1000,3000,3000],["g-beijaflor-1",2000,2000,1000,562,3000,3000],["g-beijaflor-2",0,0,1000,563,3000,3000],["g-beijaflor-2",1000,0,1000,560,3000,3000],["g-beijaflor-2",2000,0,1000,565,3000,3000],["g-beijaflor-2",0,1000,1000,562,3000,3000],["g-beijaflor-2",1000,1000,562,1000,3000,3000],["g-beijaflor-2",2000,1000,1000,563,3000,3000],["g-beijaflor-2",0,2000,1000,562,3000,3000],["g-beijaflor-2",1000,2000,1000,562,3000,3000],["g-beijaflor-2",2000,2000,1000,562,3000,3000],["g-beijaflor-3",0,0,1000,571,3000,2000],["g-beijaflor-3",1000,0,562,1000,3000,2000],["g-beijaflor-3",2000,0,562,1000,3000,2000],["g-beijaflor-3",0,1000,1000,552,3000,2000],["g-beijaflor-3",1000,1000,1000,562,3000,2000]],"arvore":[["g-arvore-1",0,0,1000,563,3000,3000],["g-arvore-1",1000,0,562,1000,3000,3000],["g-arvore-1",2000,0,1000,562,3000,3000],["g-arvore-1",0,1000,562,1000,3000,3000],["g-arvore-1",1000,1000,1000,562,3000,3000],["g-arvore-1",2000,1000,1000,563,3000,3000],["g-arvore-1",0,2000,1000,571,3000,3000],["g-arvore-1",1000,2000,1000,560,3000,3000],["g-arvore-1",2000,2000,562,1000,3000,3000],["g-arvore-2",0,0,562,1000,3000,2000],["g-arvore-2",1000,0,562,1000,3000,2000],["g-arvore-2",2000,0,1000,559,3000,2000],["g-arvore-2",0,1000,1000,557,3000,2000]],"araras":[["g-araras-1",0,0,1000,559,3000,3000],["g-araras-1",1000,0,1000,750,3000,3000],["g-araras-1",2000,0,1000,750,3000,3000],["g-araras-1",0,1000,1000,750,3000,3000],["g-araras-1",1000,1000,1000,750,3000,3000],["g-araras-1",2000,1000,1000,750,3000,3000],["g-araras-1",0,2000,1000,750,3000,3000],["g-araras-1",1000,2000,1000,750,3000,3000],["g-araras-1",2000,2000,1000,750,3000,3000],["g-araras-2",0,0,1000,750,3000,2000],["g-araras-2",1000,0,1000,750,3000,2000],["g-araras-2",2000,0,1000,750,3000,2000],["g-araras-2",0,1000,1000,750,3000,2000]],"maritaca":[["g-maritaca-1",0,0,1000,560,3000,3000],["g-maritaca-1",1000,0,1000,750,3000,3000],["g-maritaca-1",2000,0,1000,750,3000,3000],["g-maritaca-1",0,1000,1000,750,3000,3000],["g-maritaca-1",1000,1000,1000,750,3000,3000],["g-maritaca-1",2000,1000,1000,750,3000,3000],["g-maritaca-1",0,2000,1000,750,3000,3000],["g-maritaca-1",1000,2000,1000,750,3000,3000],["g-maritaca-1",2000,2000,1000,750,3000,3000],["g-maritaca-2",0,0,1000,750,3000,2000],["g-maritaca-2",1000,0,1000,750,3000,2000],["g-maritaca-2",2000,0,1000,750,3000,2000],["g-maritaca-2",0,1000,1000,750,3000,2000],["g-maritaca-2",1000,1000,1000,750,3000,2000]],"tucanos":[["g-tucanos-1",0,0,1000,558,3000,3000],["g-tucanos-1",1000,0,999,750,3000,3000],["g-tucanos-1",2000,0,999,750,3000,3000],["g-tucanos-1",0,1000,1000,750,3000,3000],["g-tucanos-1",1000,1000,1000,750,3000,3000],["g-tucanos-1",2000,1000,1000,750,3000,3000],["g-tucanos-1",0,2000,1000,750,3000,3000],["g-tucanos-1",1000,2000,1000,750,3000,3000],["g-tucanos-1",2000,2000,1000,750,3000,3000],["g-tucanos-2",0,0,1000,750,3000,1000],["g-tucanos-2",1000,0,1000,750,3000,1000],["g-tucanos-2",2000,0,1000,750,3000,1000]]};
+const WA='5543996124004';
+const ACC=[
+ {id:'spa',name:'Casa SPA',tag:'Conforto, Requinte e Praticidade.',desc:'Sua jornada de tranquilidade começa aqui.',cover:0,videos:['video-casaspa2025.mp4','video-spa.mp4']},
+ {id:'sitio',name:'Casa Sítio',tag:'Aconchego, Sofisticação e Lazer.',desc:'Venha viver a harmonia da natureza sem os obstáculos no caminho.',cover:1,videos:['video-casasitio2025.mp4']},
+ {id:'acqua',name:'Casa Acqua',tag:'Elegância, Comodidade e Entretenimento.',desc:'Um oásis onde a conveniência e a natureza se encontram.',cover:2,videos:['video-acqua2025.mp4']},
+ {id:'beijaflor',name:'Casa Beija Flor',tag:'Praticidade, Elegância e Lazer.',desc:'Um refúgio onde a conveniência e a beleza natural coexistem em harmonia.',cover:3,videos:['video-beijaflor.mp4']},
+ {id:'arvore',name:'Casa da Árvore',tag:'Charme, Conforto e Alegria.',desc:'Descubra um santuário onde a conveniência e a beleza natural coexistem em plena harmonia.',cover:4,videos:['video-arvore.mp4']},
+ {id:'araras',name:'Chalé Araras',tag:'Refinamento, Praticidade e Lazer.',desc:'Explore um paraíso onde a comodidade e o ambiente natural se encontram em perfeita concordância.',cover:5,videos:['video-araras-novo.mp4']},
+ {id:'maritaca',name:'Chalé Maritaca',tag:'Sofisticação, Conforto e Diversão.',desc:'Encontre um refúgio onde a praticidade e a natureza se unem em total harmonia.',cover:6,videos:['video-maritaca2025.mp4']},
+ {id:'tucanos',name:'Chalé Tucanos',tag:'Estilo, Conveniência e Recreação.',desc:'Descubra um santuário onde o conforto e a natureza se misturam.',cover:7,videos:['video-tucanos2025.mp4']}
+];
+const DEP=[
+ ['Daniel','Lugar perfeito é ali, amamos tudo desde o ótimo atendimento da Gisele até o lugar onde ficamos (que por sinal é surreal). Sem palavras para descrever, Deus abençoe grandemente.'],
+ ['Leonora','Foi maravilhoso, Gisele e seu esposo nos receberam muito bem! A estadia foi maravilhosa, deu pra relaxar muito e ficamos com gostinho de quero mais! Super recomendo !!!'],
+ ['Josimar','Foi muito atenciosa, tudo impecável, ambiente limpo e agradável, super recomendo.'],
+ ['German','Tudo ótimo.'],
+ ['Diego','Gisele foi super atenciosa, assim como os caseiros! Lugar incrível, com certeza voltaremos mais vezes! Vale cada centavo!'],
+ ['Emerson Luiz','Lugar maravilhoso em contato com a natureza, cachoeira, lugar para acampar e pescar. Ficamos maravilhados com o lugar e iremos voltar em breve. A anfitriã, muito gentil e prestativa nas solicitações.'],
+ ['Marcos','Muito bom o espaço! Adoramos a estadia.'],
+ ['Patrick Magno','Ótimo local, adoramos e pretendemos retornar em breve.'],
+ ['Djuly','Foi uma ótima estadia, Gisele foi uma ótima anfitrião respondendo super rápido as minhas mensagens.'],
+ ['Luiz Fernando','O local é simplesmente incrível, local extremamente lindo, paisagens, natureza, comodidade com televisão em todos ambientes, perto de restaurantes e mercados, tudo muito limpo e organizado, a cachoeira é um lugar incrível para aproveitar, uma pena que o final de semana foi bastante chuvoso, mas aproveitamos bastante o interior da casa, local impecável, tenho a certeza que na região aqui não tem lugar melhor, então quem planeja passar um dia ou uma semana não tem melhor lugar para se hospedar, o pesqueiro fica ao lado então muita comodidade pra quem quer ir ao restaurante e não ir longe e bem ao lado da casa, experiencia incrível, sobre o lugar só experimento para saber mesmo sobre o local, quanto a anfitriã Gisele, pessoa de uma educação ímpar, sempre nos orientando, respondendo sobre qualquer dúvida, fez com que nos sentíssemos em casa, com toda certeza voltaremos ao local, espero ainda voltar antes do final do ano!!! Obrigado e com certeza recomendo demais!!!'],
+ ['Eduardo','A hospedagem pelas fotos parece incrível, mas pessoalmente vai além, supera toda e qualquer expectativa. Toda a beleza natural do local é indescritível, e a estrutura da casa, construída para integrar e interagir com os espaços, torna a experiência única. Se nunca esteve com um superhost, com a Gisele saberá como é, uma anfitriã incrível, comunicativa, proativa e muito atenciosa, ajudando a tornar a experiência ímpar.'],
+ ['Nathalia','Eu me surpreendi com o local! Simplesmente maravilhoso! Tudo lindo, limpo e aconchegante. Gisele prestativa e solícita o tempo inteiro. Tive a sensação de ser maior pessoalmente do que pelas fotos! É um espaço que dá para 4 pessoas até mais. A piscina maravilhosa, tem cachoeira, pescamos... já quero voltar!']
+];
+const $=s=>document.querySelector(s);
+
+/* ---------- tiles from atlases ---------- */
+function tile(t,full){ // t=[sheet,x,y,w,h,W,H]
+ const d=document.createElement('div');d.className='ph';
+ const [s,x,y,w,h,W,H]=t;
+ d.style.backgroundImage=`url(${s}.jpg)`;
+ d.style.backgroundSize=`${W/w*100}% ${H/h*100}%`;
+ d.style.backgroundPosition=`${W===w?0:x/(W-w)*100}% ${H===h?0:y/(H-h)*100}%`;
+ d.style.aspectRatio=`${w}/${h}`;
+ return d;
+}
+function coverTile(t){const c=document.createElement('div');c.className='cover';const d=tile(t);const r=t[3]/t[4];d.style.width=`max(100cqw, calc(100cqh * ${r}))`;d.style.height=`max(100cqh, calc(100cqw / ${r}))`;c.appendChild(d);return c}
+function fillCover(el,t){const d=tile(t);const r=t[3]/t[4];d.style.width=`max(100cqw, calc(100cqh * ${r}))`;d.style.height=`max(100cqh, calc(100cqw / ${r}))`;el.appendChild(d)}
+
+/* ---------- lightbox ---------- */
+let lbList=[],lbI=0;
+function openLb(list,i){lbList=list;lbI=i;showLb();$('#lb').classList.add('open')}
+function showLb(){const t=lbList[lbI];const box=$('#lbImg');box.innerHTML='';const d=tile(t);const r=t[3]/t[4];d.style.width=`min(92vw, calc(86vh * ${r}))`;box.appendChild(d);$('#lbCnt').textContent=`${lbI+1} / ${lbList.length}`}
+$('[data-lbx]').onclick=()=>$('#lb').classList.remove('open');
+$('[data-lbn]').onclick=()=>{lbI=(lbI+1)%lbList.length;showLb()};
+$('[data-lbp]').onclick=()=>{lbI=(lbI-1+lbList.length)%lbList.length;showLb()};
+document.addEventListener('keydown',e=>{if(!$('#lb').classList.contains('open'))return;if(e.key==='Escape')$('[data-lbx]').click();if(e.key==='ArrowRight')$('[data-lbn]').click();if(e.key==='ArrowLeft')$('[data-lbp]').click()});
+let tx=0;$('#lb').addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});$('#lb').addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)(dx<0?$('[data-lbn]'):$('[data-lbp]')).click()});
+function gallery(el,list){list.forEach((t,i)=>{const d=tile(t);d.onclick=()=>openLb(list,i);el.appendChild(d)})}
+
+/* ---------- acomodações ---------- */
+const grid=$('#accGrid');
+ACC.forEach(a=>{
+ const c=document.createElement('article');c.className='acc reveal';
+ const cv=coverTile(A.capas[a.cover]);
+ cv.insertAdjacentHTML('beforeend',`<span class="tag">${A[a.id].length} fotos · vídeo</span><div class="name"><h3>${a.name}</h3><p>${a.tag}</p></div>`);
+ c.appendChild(cv);
+ c.insertAdjacentHTML('beforeend',`<div class="actions"><button class="see">Vídeos e fotos</button><button class="book">Reservar</button></div>`);
+ c.querySelector('.see').onclick=e=>{e.stopPropagation();openAcc(a)};
+ c.querySelector('.book').onclick=e=>{e.stopPropagation();book(a.name)};
+ cv.onclick=()=>openAcc(a);
+ grid.appendChild(c);
+ $('#footAcc').insertAdjacentHTML('beforeend',`<li><a href="#acomodacoes" data-acc="${a.id}">${a.name}</a></li>`);
+});
+document.querySelectorAll('[data-acc]').forEach(l=>l.onclick=e=>{e.preventDefault();openAcc(ACC.find(a=>a.id===l.dataset.acc))});
+function openAcc(a){
+ const b=$('#accBody');
+ b.innerHTML=`<div class="mhead"><div><div class="eyebrow">${a.tag}</div><h3>${a.name}</h3><p>${a.desc}</p></div><button class="btn btn-green" id="mBook"><svg viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>Reservar ${a.name}</button></div>
+ <div class="vids">${a.videos.map(v=>`<video src="${v}" controls playsinline preload="metadata"></video>`).join('')}</div><div class="masonry" id="mGal"></div>`;
+ gallery($('#mGal'),A[a.id]);
+ $('#mBook').onclick=()=>{closeModals();book(a.name)};
+ $('#accModal').classList.add('open');document.body.style.overflow='hidden';$('#accModal').scrollTop=0;
+}
+function closeModals(){document.querySelectorAll('.modal').forEach(m=>{m.classList.remove('open');m.querySelectorAll('video').forEach(v=>v.pause())});document.body.style.overflow=''}
+document.querySelectorAll('[data-close]').forEach(b=>b.onclick=closeModals);
+document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)closeModals()}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#lb').classList.contains('open'))closeModals()});
+$('#ppBtn').onclick=()=>{$('#ppModal').classList.add('open');document.body.style.overflow='hidden'};
+
+/* ---------- atrativos + galeria ---------- */
+fillCover($('#represaCover'),A.atrativos[10]);
+$('#represaCover').onclick=()=>openLb(A.atrativos,10);$('#represaCover').style.cursor='zoom-in';
+const strip=$('#attrStrip');
+[2,3,4,5,6,8].forEach(i=>{const c=coverTile(A.atrativos[i]);c.onclick=()=>openLb(A.atrativos,i);strip.appendChild(c)});
+gallery($('#mainGallery'),A.inicio.concat(A.atrativos.filter((_,i)=>[0,1,7,9].includes(i))));
+
+/* ---------- depoimentos ---------- */
+const tr=$('#depTrack');
+DEP.forEach(([n,t],i)=>{tr.insertAdjacentHTML('beforeend',`<div class="dep"><div class="stars">★★★★★</div><p class="${t.length>300?'long':''}">“${t}”</p>${t.length>300?'<button class="more">Ler tudo</button>':''}<div class="who"><span class="av" style="background-position:${i/11*100}% 0"></span><div><b>${n}</b><small>Hóspede</small></div></div></div>`)});
+tr.querySelectorAll('.more').forEach(b=>b.onclick=()=>{const p=b.previousElementSibling;p.classList.toggle('long');b.textContent=p.classList.contains('long')?'Ler tudo':'Mostrar menos'});
+$('#depNext').onclick=()=>tr.scrollBy({left:400,behavior:'smooth'});$('#depPrev').onclick=()=>tr.scrollBy({left:-400,behavior:'smooth'});
+
+/* ---------- reservas ---------- */
+const sel=$('#rAcc');sel.innerHTML='<option value="">Ainda não sei / me ajude a escolher</option>'+ACC.map(a=>`<option>${a.name}</option>`).join('');
+$('#rAd').innerHTML=[1,2,3,4,5,6,7,8,9,10].map(n=>`<option ${n===2?'selected':''}>${n}</option>`).join('');
+$('#rCr').innerHTML=[0,1,2,3,4,5,6].map(n=>`<option>${n}</option>`).join('');
+const today=new Date();const iso=d=>d.toISOString().slice(0,10);
+$('#rIn').min=iso(today);
+$('#rIn').addEventListener('change',()=>{const d=new Date($('#rIn').value+'T12:00');d.setDate(d.getDate()+1);$('#rOut').min=iso(d);if(!$('#rOut').value||$('#rOut').value<=$('#rIn').value)$('#rOut').value=iso(d);calcN()});
+$('#rOut').addEventListener('change',calcN);
+function nights(){const a=$('#rIn').value,b=$('#rOut').value;if(!a||!b)return 0;return Math.round((new Date(b+'T12:00')-new Date(a+'T12:00'))/864e5)}
+function calcN(){const n=nights();$('#nights').textContent=n>0?`${n} ${n>1?'diárias':'diária'} selecionada${n>1?'s':''}`:''}
+const br=s=>s?s.split('-').reverse().join('/'):'';
+$('#rFone').addEventListener('input',e=>{let v=e.target.value.replace(/\D/g,'').slice(0,11);e.target.value=v.length>6?`(${v.slice(0,2)}) ${v.slice(2,v.length-4)}-${v.slice(-4)}`:v.length>2?`(${v.slice(0,2)}) ${v.slice(2)}`:v});
+function book(name){sel.value=name;location.hash='';$('#reservas').scrollIntoView({behavior:'smooth'});setTimeout(()=>$('#rNome').focus({preventScroll:true}),900)}
+$('#resForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const nome=$('#rNome').value.trim();
+ if(!nome){$('#rNome').focus();$('#rNome').style.borderColor='#e5484d';return}
+ if(!$('#rIn').value){$('#rIn').focus();$('#rIn').style.borderColor='#e5484d';return}
+ if(nights()<1){$('#rOut').focus();$('#rOut').style.borderColor='#e5484d';return}
+ const n=nights();
+ let msg=`Olá! Vim pelo site e gostaria de solicitar uma reserva no *Quintal Hospedagens* 🌿\n\n`+
+ `🏡 *Acomodação:* ${sel.value||'Gostaria de ajuda para escolher'}\n`+
+ `📅 *Check-in:* ${br($('#rIn').value)}\n📅 *Check-out:* ${br($('#rOut').value)} (${n} ${n>1?'diárias':'diária'})\n`+
+ `👥 *Hóspedes:* ${$('#rAd').value} adulto(s)${$('#rCr').value>0?' e '+$('#rCr').value+' criança(s)':''}\n`+
+ `🙋 *Nome:* ${nome}\n`+($('#rFone').value?`📞 *WhatsApp:* ${$('#rFone').value}\n`:'')+
+ ($('#rObs').value.trim()?`📝 *Obs.:* ${$('#rObs').value.trim()}\n`:'')+`\nPoderia me informar disponibilidade e valores?`;
+ window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,'_blank');
+});
+['#rNome','#rIn','#rOut'].forEach(s=>$(s).addEventListener('input',e=>e.target.style.borderColor=''));
+
+/* ---------- tour 360 ---------- */
+const TOURS=[{n:'Casa SPA · Sala do SPA',img:'tour360-casa-spa.jpg'}].concat(ACC.slice(1).map(a=>({n:a.name,soon:true})));
+let viewer=null;if(typeof pannellum==='undefined'){window.pannellum={viewer:()=>({destroy(){}})}}
+function loadTour(i){const t=TOURS[i];if(t.soon)return;$('#tourName').textContent=t.n;
+ if(viewer)viewer.destroy();
+ viewer=pannellum.viewer('pano',{type:'equirectangular',panorama:t.img,autoLoad:true,haov:360,vaov:53.7,vOffset:0,minPitch:-26.8,maxPitch:26.8,hfov:85,minHfov:50,maxHfov:100,autoRotate:-2,autoRotateInactivityDelay:4000,showControls:true,compass:false,strings:{loadingLabel:'Carregando...'}});
+ document.querySelectorAll('#tourTabs button').forEach((b,j)=>b.classList.toggle('on',j===i));}
+TOURS.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t.soon?`${t.n} · em breve`:t.n;if(t.soon)b.className='soon';b.onclick=()=>loadTour(i);$('#tourTabs').appendChild(b)});
+const tourObs=new IntersectionObserver(es=>{if(es[0].isIntersecting){loadTour(0);tourObs.disconnect()}},{rootMargin:'300px'});tourObs.observe($('#tour'));
+
+/* ---------- hero scroll video ---------- */
+const hv=$('#heroVideo'),hero=$('#hero'),slides=[...document.querySelectorAll('#hero .slide')];
+let target=0,cur=0,ready=hv.readyState>=1;
+hv.addEventListener('loadedmetadata',()=>{ready=true});
+const bg=$('#heroBg'),bx=bg.getContext('2d');const drawBg=()=>{try{bx.drawImage(hv,0,0,72,128)}catch(e){}};hv.addEventListener('seeked',drawBg);hv.addEventListener('loadeddata',drawBg);
+const unlock=()=>{hv.play().then(()=>hv.pause()).catch(()=>{});window.removeEventListener('touchstart',unlock)};
+window.addEventListener('touchstart',unlock,{passive:true});
+function heroProgress(){const r=hero.getBoundingClientRect();const total=hero.offsetHeight-innerHeight;return Math.min(1,Math.max(0,-r.top/total))}
+function tick(){
+ const p=heroProgress();
+ if(ready&&hv.duration){target=p*(hv.duration-0.05);cur+=(target-cur)*0.18;if(Math.abs(hv.currentTime-cur)>0.01)hv.currentTime=cur}
+ slides.forEach(s=>s.classList.toggle('on',p>=+s.dataset.from&&p<+s.dataset.to));
+ $('#heroProg').style.width=(p*100)+'%';$('#hint').style.opacity=p>.04?0:.85;
+ requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+
+/* ---------- header, menu, reveal ---------- */
+const hd=$('#top');const onS=()=>hd.classList.toggle('solid',scrollY>innerHeight*.9||document.body.classList.contains('menu'));addEventListener('scroll',onS,{passive:true});onS();
+$('#burger').onclick=()=>{$('#nav').classList.toggle('open');document.body.classList.toggle('menu');onS()};
+document.querySelectorAll('#nav a').forEach(a=>a.onclick=()=>{$('#nav').classList.remove('open');document.body.classList.remove('menu');onS()});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+const vio=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.play().catch(()=>{})}else v.pause()}),{threshold:.2});
+document.querySelectorAll('video[autoplay]').forEach(v=>vio.observe(v));
+$('#yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
