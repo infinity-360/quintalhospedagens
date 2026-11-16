@@ -391,7 +391,7 @@ footer .copy button{background:none;border:0;color:inherit;font:inherit;cursor:p
   </div>
   <div class="tour-box reveal">
    <div class="tour-label"><i></i><span>Tour virtual 360°</span></div>
-   <iframe id="pano" data-src="https://tour360.mgtour360.com.br/tour/fazendofazenda/" title="Tour virtual 360° Quintal Hospedagens" allow="fullscreen; accelerometer; gyroscope; magnetometer; vr; xr-spatial-tracking" allowfullscreen loading="lazy" style="width:100%;height:100%;border:0"></iframe>
+   <iframe id="pano" src="https://tour360.mgtour360.com.br/tour/fazendofazenda/" title="Tour virtual 360° Quintal Hospedagens" allow="fullscreen; accelerometer; gyroscope; magnetometer; vr; xr-spatial-tracking" allowfullscreen loading="lazy" style="width:100%;height:100%;border:0"></iframe>
   </div>
   <div class="tour-tabs"><a class="btn btn-green" href="https://tour360.mgtour360.com.br/tour/fazendofazenda/" target="_blank" rel="noopener">Abrir tour em tela cheia</a></div>
  </div>
@@ -669,7 +669,6 @@ $('#resForm').addEventListener('submit',e=>{
 ['#rNome','#rIn','#rOut'].forEach(s=>$(s).addEventListener('input',e=>e.target.style.borderColor=''));
 
 /* ---------- tour 360 ---------- */
-const tourObs=new IntersectionObserver(es=>{if(es[0].isIntersecting){const f=$('#pano');f.src=f.dataset.src;tourObs.disconnect()}},{rootMargin:'400px'});tourObs.observe($('#tour'));
 
 /* ---------- hero scroll video ---------- */
 const hv=$('#heroVideo'),hero=$('#hero'),slides=[...document.querySelectorAll('#hero .slide')];
